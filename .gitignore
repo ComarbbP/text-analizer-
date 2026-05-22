@@ -1,0 +1,9 @@
+#Python 
+_pycache_/
+*._pyc
+*._pyo
+
+#Entornos virtuales 
+.venv/
+.env/
+venv/
