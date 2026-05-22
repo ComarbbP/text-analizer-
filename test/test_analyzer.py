@@ -1,6 +1,6 @@
 from analyzer.text_analyzer import (
     count_words,
-    count_chracters,
+    count_characters,
     count_sentences,
     longest_word
 )
@@ -11,7 +11,7 @@ def test_count_words():
 
 def test_count_characters():
     text = "Hola"
-    assert count_chracters(text) == 4
+    assert count_characters(text) == 4
     
 def test_count_sentences():
     text = "Hola mundo. Esto es una prueba."
