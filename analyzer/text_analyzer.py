@@ -11,7 +11,7 @@ def count_sentences(text):
 
 def count_paragraphs(text): 
     paragraphs = text.split("\n\n")
-    paragraphs = [p for pin paragraphs if p.strip]
+    paragraphs = [p for p in paragraphs if p.strip]
     return len(paragraphs)
 
 def longest_word(text):
@@ -27,7 +27,7 @@ def longest_sentences(text):
 
 def longest_paragraphs(text):
     paragraphs = text.split("\n\n")
-    paragraphs = [p for pin paragraphs if p.strip]
+    paragraphs = [p for p in paragraphs if p.strip]
     return max(paragraphs, key=len)
 
     
