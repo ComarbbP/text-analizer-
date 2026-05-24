@@ -20,3 +20,16 @@ def longest_word(text):
         return""
     return max(words, key=len)
 
+def longest_sentences(text):
+    sentences = text.split(".")
+    sentences = [s for s in sentences if s.strip()]
+    return max (sentences, key=len)
+
+def longest_paragraphs(text):
+    paragraphs = text.split("\n\n")
+    paragraphs = [p for pin paragraphs if p.strip]
+    return max(paragraphs, key=len)
+
+    
+    
+
